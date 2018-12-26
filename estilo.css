@@ -1,0 +1,128 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    justify-content: center;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #3C6E99;
+    min-height: 70px;
+    align-items: center;
+   
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: rgb(10, 120, 216);
+}
+nav a
+{
+  text-decoration: none;
+  color: white;
+}
+header div
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#pelicula
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+   
+
+}
+#contenedor-imagen{
+    width:630px;
+    height:380px;
+    min-width: 25%;
+    /*overflow:hidden;*/
+  }
+  #contenedor-imagen img{
+    width:100%;
+    height:auto
+  }
+  #valoracion
+  {
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: space-between;
+  }
+  
+  #nota
+  {
+    font-size: 25px;
+    padding: 30px;
+     background: #3C6E99;
+     color: white;
+  }
+  #voto
+  {
+    font-size: 20px;
+    padding: 20px;
+      border:1px solid #3C6E99;
+      color:#3C6E99;
+  }
+#texto
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 75%;
+    
+}
+td
+{
+   margin: 5px; 
+}
+td:first-of-type
+{
+    display: flex;
+    text-justify: start;
+    font-weight: bold;
+    
+}
+#ocultar
+{
+    display: none;
+}
+#mostrar
+{
+    display: block;
+}
+#usuario span
+{
+    margin-right: 5px;
+}
+#favoritas button
+{
+    margin: 10px 10px auto auto;
+}
+#login
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
