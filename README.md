@@ -1,7 +1,7 @@
 # PELICULAS 
 
 Buscador de película para poder ver los detalles de dicha película y su puntuación según el numero de usuarios.
-La aplicación web se comunica con una API
+La aplicación web se comunica con una API.
 
 ## Características
 
