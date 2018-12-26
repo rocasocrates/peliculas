@@ -5,7 +5,7 @@ La aplicación web se comunica con una API.
 
 ## Características
 
-+ JavaScript puro
++ JavaScript vanilla (javascript nativo ò puro)
 + HTML5
 + CSS
 
